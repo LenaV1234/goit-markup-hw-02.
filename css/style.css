@@ -190,7 +190,7 @@
                     font-size: 14px;
                     line-height: 1.71;
                     letter-spacing: 0.03em;
-                    color: var(--primary-text-colo);
+                    color: var(--primary-text-color);
                 }
                 /* SECTION HOLDER*/
                 
@@ -229,6 +229,7 @@
                     font-size: 16px;
                     line-height: 19px;
                     letter-spacing: 0.03em;
+                    color: var(--profession-text-color);
                 }
                 /*FOOTER*/
                 
@@ -279,13 +280,13 @@
                     color: var(--hover-text-color);
                 }
                 /*HOMEWORK II*/
-                /*SECTION BUTTON*/
+                /*SECTION PORTFOLIO*/
                 
-                .buttons {
+                .portfolio {
                     background: var(--section-bg-color);
                 }
                 
-                .buttons-btn {
+                .portfolio-btn {
                     background: var(--button-filter-color);
                     border: none;
                     font-family: Roboto, sans-serif;
@@ -297,14 +298,9 @@
                     border-radius: 4px;
                 }
                 
-                .buttons-btn:hover {
+                .portfolio-btn:hover {
                     background: #2196F3;
                     color: var(--button-text-color);
-                }
-                /*SECTION PORTFOLIO*/
-                
-                .portfolio {
-                    background: var(--section-bg-color);
                 }
                 
                 .portfolio-img {
@@ -328,8 +324,4 @@
                     font-size: 16px;
                     line-height: 1.88;
                     color: var( --portfolio-text-color);
-                }
-                
-                .portfolio-drawings {
-                    display: flex;
                 }
