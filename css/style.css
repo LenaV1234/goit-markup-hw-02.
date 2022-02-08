@@ -220,14 +220,14 @@
                 .inner-name {
                     font-weight: 500;
                     font-size: 16px;
-                    line-height: 19px;
+                    line-height: 1.19;
                     letter-spacing: 0.03em;
                 }
                 
                 .inner-position {
                     font-weight: 400;
                     font-size: 16px;
-                    line-height: 19px;
+                    line-height: 1.19;
                     letter-spacing: 0.03em;
                     color: var(--profession-text-color);
                 }
@@ -243,7 +243,7 @@
                 
                 .footer-address {
                     font-size: 14px;
-                    line-height: 24px;
+                    line-height: 1.71;
                     letter-spacing: 0.03em;
                     color: var(--footer-text-color);
                 }
@@ -290,12 +290,13 @@
                     background: var(--button-filter-color);
                     border: none;
                     font-family: Roboto, sans-serif;
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 18px;
-                    line-height: 2;
-                    letter-spacing: 0.06em;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 1.63;
+                    text-align: center;
+                    letter-spacing: 0.03em;
                     border-radius: 4px;
+                    color: #212121;
                 }
                 
                 .portfolio-btn:hover {
